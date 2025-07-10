@@ -42,11 +42,29 @@ int wmain(int argc, wchar_t* argv[])
         wprintf(L"Usage: mixcli <mix> <pal>\n");
         return 1;
     }
+
     std::filesystem::path mixPath = argv[1];
     Cpal_file pal_f; pal_f.open(argv[2]);
     t_palet pal; pal_f.decode(pal);
 
     Cmix_file mix; mix.open(mixPath.string().c_str());
+
+    for (int i = 0; i < mix.get_c_files(); ++i) {
+        int id = mix.get_id(i);
+        std::string name = mix.get_name(id);
+        Cvirtual_binary buf = mix.get_vdata(id);
+
+        if (boost::iends_with(name, ".shp")) {
+            Cshp_ts_file shp;  shp.load(buf);
+            for (int f = 0; f < shp.cf(); ++f) {
+                auto img = decode_frame32(shp, f, pal);
+                std::string out = name + "_" + std::to_string(f) + ".png";
+                img.save(out, ft_png);
+            }
+        } else {
+            buf.save(name);
+        }
+
 
     for (int i = 0; i < mix.get_c_files(); ++i) {
         int id = mix.get_id(i);

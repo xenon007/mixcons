@@ -24,6 +24,7 @@
 #include <vartypes.h>
 #include "data_ref.h"
 
+
 using namespace std;
 
 class Cvirtual_binary_source
