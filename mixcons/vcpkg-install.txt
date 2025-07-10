@@ -1,0 +1,1 @@
+vcpkg install boost-algorithm boost-crc bzip2 libjpeg-turbo libpng libvorbis lzo
