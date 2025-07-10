@@ -22,7 +22,7 @@
 #include <memory>
 #include <string>
 #include <vartypes.h>
-#include <xcc/data_ref.h>
+#include "data_ref.h"
 
 using namespace std;
 
