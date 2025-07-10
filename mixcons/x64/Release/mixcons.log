@@ -1,0 +1,385 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  mixcons.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\span(12): warning STL4038: The contents of <span> are available only with C++20 or later.
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(24,35): error C2039: "span": не является членом "std".
+  (компиляция исходного файла "mixcons.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\memory(31,1):
+       см. объявление "std"
+      Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(24,35):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(24,7):
+          при компиляции шаблона класса "data_ref_base"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(24,39): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(27,22): error C2039: "span": не является членом "std".
+  (компиляция исходного файла "mixcons.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\memory(31,1):
+       см. объявление "std"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(27,22): error C2061: синтаксическая ошибка: идентификатор "span"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(57,15): error C2065: base_t: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(57,15): error C2187: синтаксическая ошибка: непредвиденный здесь элемент "base_t"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(57,21): error C3878: синтаксическая ошибка: непредвиденный токен "&" после "expression"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(57,29): error C2760: синтаксическая ошибка: непредвиденный элемент ")". Ожидается ";"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\xcc\data_ref.h(57,29): error C3878: синтаксическая ошибка: непредвиденный токен ")" после "expression-statement"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(48,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(50,3): error C2065: mov: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(50,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(50,8): error C2065: eax: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(51,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "xchg"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(51,3): error C2065: xchg: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(51,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "al"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(51,8): error C2065: al: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(51,12): error C2065: ah: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(52,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "rol"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(52,3): error C2065: rol: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(52,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(52,8): error C2065: eax: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(53,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "xchg"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(53,3): error C2065: xchg: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(53,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "al"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(53,8): error C2065: al: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(53,12): error C2065: ah: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(54,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(54,3): error C2065: mov: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(54,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "v"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(54,11): error C2065: eax: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_structures.h(55,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(104,21): error C2061: синтаксическая ошибка: идентификатор "map"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(112,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(112,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(112,35): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(113,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(113,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(113,32): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(114,13): error C3646: m_id_index: неизвестный спецификатор переопределения
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(114,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(53,10): error C2065: m_index: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(69,10): error C2065: m_index_ft: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(74,10): error C2065: m_index: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(80,10): error C2065: m_index: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(86,10): error C2065: m_index: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(101,11): error C2065: m_index: необъявленный идентификатор
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\fname.h(33,26): error C2061: синтаксическая ошибка: идентификатор "string_view"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\fname.h(33,16): error C2805: двоичный оператор "=" имеет слишком мало параметров
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\fname.h(36,23): error C2061: синтаксическая ошибка: идентификатор "string_view"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\fname.h(37,24): error C2061: синтаксическая ошибка: идентификатор "string_view"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\fname.h(38,15): error C2061: синтаксическая ошибка: идентификатор "string_view"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\fname.h(39,16): error C2061: синтаксическая ошибка: идентификатор "string_view"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\fname.h(40,17): error C2061: синтаксическая ошибка: идентификатор "string_view"
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\win_handle.h(26,7): error C2953: Cwin_handle_base: шаблон класса уже определен
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\xcc\src\misc\win_handle.h(26,7):
+       см. объявление "Cwin_handle_base"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\win_handle.h(48,7): error C2371: Cwin_handle: переопределение; различные базовые типы
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\win_handle.h(48,7):
+       см. объявление "Cwin_handle"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\win_handle.h(50,80): error C2572: create_process: переопределение аргумента по умолчанию: параметр 1
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\win_handle.h(50,5):
+       см. объявление "create_process"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\win_handle.h(50,96): error C2572: create_process: переопределение аргумента по умолчанию: параметр 2
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\win_handle.h(50,5):
+       см. объявление "create_process"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\file32.h(28,7): error C2011: Cfile32: переопределение типа "class"
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\file32.h(28,7):
+       см. объявление "Cfile32"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\cc_file.h(24,6): error C2011: t_file_type: переопределение типа "enum"
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file.h(24,6):
+       см. объявление "t_file_type"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\cc_file.h(105,7): error C2011: Ccc_file: переопределение типа "class"
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file.h(105,7):
+       см. объявление "Ccc_file"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\cc_file_small.h(23,31): error C2504: Ccc_file: не определен базовый класс
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\cc_file_small.h(26,21): error C2614: Ccc_file_small: недопустимая инициализация члена: "Ccc_file" не является базовым классом или членом
+  (компиляция исходного файла "mixcons.cpp")
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file_sh.h(29,44): error C2672: "data": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "mixcons.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2166,35):
+      может быть "const _Elem *std::data(std::initializer_list<_Elem>) noexcept"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file_sh.h(29,44):
+          "const _Elem *std::data(std::initializer_list<_Elem>) noexcept": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2161,27):
+      или       "_Ty *std::data(_Ty (&)[_Size]) noexcept"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file_sh.h(29,44):
+          "_Ty *std::data(_Ty (&)[_Size]) noexcept": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2155,27):
+      или       "unknown-type std::data(const _Container &) noexcept(<expr>)"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file_sh.h(29,44):
+          "unknown-type std::data(const _Container &) noexcept(<expr>)": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2149,27):
+      или       "unknown-type std::data(_Container &) noexcept(<expr>)"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file_sh.h(29,44):
+          "unknown-type std::data(_Container &) noexcept(<expr>)": ожидаются аргументы 1 — 0 предоставлены
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file_sh.h(29,48):
+      "data": объявление функции должно быть доступно, так как ни один из аргументов не зависит от параметра шаблона
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file_sh.h(29,48):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\cc_file_sh.h(24,7):
+          при компиляции шаблона класса "Ccc_file_sh"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(87,57): error C2672: "std::data": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "mixcons.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2166,35):
+      может быть "const _Elem *std::data(std::initializer_list<_Elem>) noexcept"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(87,57):
+          "const _Elem *std::data(std::initializer_list<_Elem>) noexcept": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2161,27):
+      или       "_Ty *std::data(_Ty (&)[_Size]) noexcept"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(87,57):
+          "_Ty *std::data(_Ty (&)[_Size]) noexcept": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2155,27):
+      или       "unknown-type std::data(const _Container &) noexcept(<expr>)"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(87,57):
+          "unknown-type std::data(const _Container &) noexcept(<expr>)": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2149,27):
+      или       "unknown-type std::data(_Container &) noexcept(<expr>)"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(87,57):
+          "unknown-type std::data(_Container &) noexcept(<expr>)": ожидаются аргументы 1 — 0 предоставлены
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(97,10): error C2672: "std::data": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "mixcons.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2166,35):
+      может быть "const _Elem *std::data(std::initializer_list<_Elem>) noexcept"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(97,10):
+          "const _Elem *std::data(std::initializer_list<_Elem>) noexcept": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2161,27):
+      или       "_Ty *std::data(_Ty (&)[_Size]) noexcept"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(97,10):
+          "_Ty *std::data(_Ty (&)[_Size]) noexcept": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2155,27):
+      или       "unknown-type std::data(const _Container &) noexcept(<expr>)"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(97,10):
+          "unknown-type std::data(const _Container &) noexcept(<expr>)": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2149,27):
+      или       "unknown-type std::data(_Container &) noexcept(<expr>)"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(97,10):
+          "unknown-type std::data(_Container &) noexcept(<expr>)": ожидаются аргументы 1 — 0 предоставлены
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\palet.h(25,8): error C2011: t_palet_entry: переопределение типа "struct"
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\palet.h(25,8):
+       см. объявление "t_palet_entry"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\palet.h(30,8): error C2011: t_palet24rgb_entry: переопределение типа "struct"
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\palet.h(30,8):
+       см. объявление "t_palet24rgb_entry"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\palet.h(35,8): error C2011: t_palet24bgr_entry: переопределение типа "struct"
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\palet.h(35,8):
+       см. объявление "t_palet24bgr_entry"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\palet.h(40,7): error C2011: t_palet32entry: переопределение типа "union"
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\palet.h(40,7):
+       см. объявление "t_palet32entry"
+  
+Q:\Workspace\ra2-mod\tools\xcc\src\misc\palet.h(49,7): error C2011: t_palet32bgr_entry: переопределение типа "union"
+  (компиляция исходного файла "mixcons.cpp")
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\palet.h(49,7):
+       см. объявление "t_palet32bgr_entry"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\pal_file.h(37,49): error C2672: "std::data": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "mixcons.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2166,35):
+      может быть "const _Elem *std::data(std::initializer_list<_Elem>) noexcept"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\pal_file.h(37,49):
+          "const _Elem *std::data(std::initializer_list<_Elem>) noexcept": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2161,27):
+      или       "_Ty *std::data(_Ty (&)[_Size]) noexcept"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\pal_file.h(37,49):
+          "_Ty *std::data(_Ty (&)[_Size]) noexcept": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2155,27):
+      или       "unknown-type std::data(const _Container &) noexcept(<expr>)"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\pal_file.h(37,49):
+          "unknown-type std::data(const _Container &) noexcept(<expr>)": ожидаются аргументы 1 — 0 предоставлены
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(2149,27):
+      или       "unknown-type std::data(_Container &) noexcept(<expr>)"
+          Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\pal_file.h(37,49):
+          "unknown-type std::data(_Container &) noexcept(<expr>)": ожидаются аргументы 1 — 0 предоставлены
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\png_file.h(32,12): error C3861: get_size: идентификатор не найден
+  (компиляция исходного файла "mixcons.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(17,21): error C2082: переопределение формального параметра "frame"
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(19,9): error C2660: decode3: функция не принимает 3 аргументов
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_decode.h(24,5):
+       см. объявление "decode3"
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(19,9):
+      при попытке сопоставить список аргументов "(const byte *, int, int)"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(21,32): error C2440: =: невозможно преобразовать "Cvirtual_binary" в "int"
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(21,32):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(46,10): error C3083: filesystem: символ слева от "::" должен представлять тип
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(46,22): error C2039: "path": не является членом "std".
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\deque(23,1):
+       см. объявление "std"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(46,22): error C2065: path: необъявленный идентификатор
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(46,27): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mixPath"
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(46,27): error C2065: mixPath: необъявленный идентификатор
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(47,28): error C2039: "open": не является членом "Cpal_file".
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\pal_file.h(24,7):
+       см. объявление "Cpal_file"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(48,13): error C2079: "pal" использует не имеющую определения структуру struct "t_palet_entry"
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(48,24): error C2664: "void Cpal_file::decode(t_palet (&)) const": невозможно преобразовать аргумент 1 из "<error type>" в "t_palet (&)"
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\pal_file.h(30,7):
+       см. объявление "Cpal_file::decode"
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(48,24):
+      при попытке сопоставить список аргументов "(<error type>)"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(50,24): error C2039: "open": не является членом "Cmix_file".
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mix_file.h(24,7):
+       см. объявление "Cmix_file"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(50,29): error C2065: mixPath: необъявленный идентификатор
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(58,36): error C2039: "load": не является членом "Cshp_ts_file".
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(27,7):
+       см. объявление "Cshp_ts_file"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(60,28): error C2664: "Cvirtual_image decode_frame32(const Cshp_ts_file &,int,const t_palet_entry [])": невозможно преобразовать аргумент 3 из "<error type>" в "const t_palet_entry []"
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(60,51):
+      Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(11,23):
+       см. объявление "decode_frame32"
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(60,28):
+      при попытке сопоставить список аргументов "(Cshp_ts_file, int, <error type>)"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(75,36): error C2039: "load": не является членом "Cshp_ts_file".
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\shp_ts_file.h(27,7):
+       см. объявление "Cshp_ts_file"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(77,28): error C2664: "Cvirtual_image decode_frame32(const Cshp_ts_file &,int,const t_palet_entry [])": невозможно преобразовать аргумент 3 из "<error type>" в "const t_palet_entry []"
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(77,51):
+      Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(11,23):
+       см. объявление "decode_frame32"
+      Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(77,28):
+      при попытке сопоставить список аргументов "(Cshp_ts_file, int, <error type>)"
+  
+Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons\mixcons.cpp(40,1): error C1075: "{": не найдена несоответствующая лексема
