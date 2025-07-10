@@ -22,7 +22,11 @@
 #include <memory>
 #include <string>
 #include <vartypes.h>
+<<<<<<< HEAD
 #include "data_ref.h"
+=======
+#include <xcc/data_ref.h>
+>>>>>>> 518eb32 (first commit)
 
 using namespace std;
 

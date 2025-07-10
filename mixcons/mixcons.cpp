@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "mix_file.h"
 #include "shp_ts_file.h"
 #include "pal_file.h"
@@ -35,6 +36,12 @@ static Cvirtual_image decode_frame32(const Cshp_ts_file& shp, int frame, const t
     upsample_image(canvas.data(), reinterpret_cast<t_palet32entry*>(rgba.write_start(global_cx * global_cy * sizeof(t_palet32entry))), global_cx, global_cy, pal);
     return Cvirtual_image(rgba, global_cx, global_cy, 4, nullptr);
 }
+=======
+﻿#include "mix_file.h"
+#include "shp_ts_file.h"
+#include "pal_file.h"
+#include <filesystem>
+>>>>>>> 518eb32 (first commit)
 
 int wmain(int argc, wchar_t* argv[])
 {
@@ -42,6 +49,7 @@ int wmain(int argc, wchar_t* argv[])
         wprintf(L"Usage: mixcli <mix> <pal>\n");
         return 1;
     }
+<<<<<<< HEAD
     std::filesystem::path mixPath = argv[1];
     Cpal_file pal_f; pal_f.open(argv[2]);
     t_palet pal; pal_f.decode(pal);
@@ -63,6 +71,28 @@ int wmain(int argc, wchar_t* argv[])
         } else {
             buf.save(name);
         }
+=======
+    std::filesystem::path mixPath = argv[1];
+    palette pal;  pal.load(argv[2]);
+
+    mix_file mix; mix.open(mixPath.string().c_str());
+
+    for (int i = 0; i < mix.get_c_files(); ++i) {
+        std::string name = mix.get_name(i);
+        mem_block buf;  mix.extract(i, buf);
+
+        if (boost::iends_with(name, ".shp")) {
+            shp_ts_file shp;  shp.open(buf);
+            for (int f = 0; f < shp.get_c_frames(); ++f) {
+                auto img = shp.decode_frame32(f, pal);
+                std::string out = name + "_" + std::to_string(f) + ".png";
+                image_file::write_png(out.c_str(), img);
+            }
+        }
+        else {
+            write_file(name, buf);
+        }
+>>>>>>> 518eb32 (first commit)
     }
     return 0;
 }
