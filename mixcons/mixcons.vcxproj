@@ -90,10 +90,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>Q:\Development\vcpkg\installed\x64-windows\include;Q:\Workspace\ra2-mod\tools\mixcons\src\mixcons;Q:\Workspace\ra2-mod\tools\mixcons;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>Q:\Development\vcpkg\installed\x64-windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -120,8 +123,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>Q:\Workspace\ra2-mod\tools\xcc\src\xd2;Q:\Workspace\ra2-mod\tools\xcc\src\XCC MIX CLT;Q:\Workspace\ra2-mod\tools\xcc\src\findf;Q:\Workspace\ra2-mod\tools\xcc\src\Library;Q:\Workspace\ra2-mod\tools\xcc\src\misc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>Q:\Development\vcpkg\installed\x64-windows\include;Q:\Workspace\ra2-mod\tools\xcc\src\xd2;Q:\Workspace\ra2-mod\tools\xcc\src\XCC MIX CLT;Q:\Workspace\ra2-mod\tools\xcc\src\findf;Q:\Workspace\ra2-mod\tools\xcc\src\Library;Q:\Workspace\ra2-mod\tools\xcc\src\misc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

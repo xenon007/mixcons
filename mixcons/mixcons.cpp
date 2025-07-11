@@ -1,12 +1,16 @@
+#include "stdafx.h"
+#include <filesystem>
+#include <cstring>
+#include <boost/algorithm/string.hpp>
+
 #include "mix_file.h"
 #include "shp_ts_file.h"
 #include "pal_file.h"
 #include "palet.h"
 #include "shp_decode.h"
 #include "png_file.h"
-#include <filesystem>
-#include <cstring>
-#include <boost/algorithm/string.hpp>
+#include "virtual_image.h"
+#include "virtual_binary.h"
 
 static Cvirtual_image decode_frame32(const Cshp_ts_file& shp, int frame, const t_palet pal)
 {
