@@ -19,4 +19,7 @@ WORKDIR /project
 # Папки, куда можно монтировать дополнительные пакеты
 VOLUME ["/build_packages", "/vcpkg_packages"]
 
-CMD ["bash"]
+COPY docker-entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]

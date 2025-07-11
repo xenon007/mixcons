@@ -9,8 +9,9 @@ services:
       - ./:/project
       - build_packages:/build_packages:ro
       - vcpkg_packages:/vcpkg_packages
+    environment:
+      - VERSION=1.0.0
     working_dir: /project
-    tty: true
 volumes:
   build_packages:
   vcpkg_packages:
