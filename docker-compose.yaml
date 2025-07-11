@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  build:
+    image: mixcons-builder:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/project
+      - build_packages:/build_packages:ro
+      - vcpkg_packages:/vcpkg_packages
+    working_dir: /project
+    tty: true
+volumes:
+  build_packages:
+  vcpkg_packages:
