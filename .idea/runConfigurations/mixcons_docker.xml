@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="mixcons (Docker)" type="BashConfigurationType" factoryName="Bash">
+    <option name="INTERPRETER_PATH" value="/bin/bash" />
+    <option name="SCRIPT" value="docker-compose" />
+    <option name="PARAMETERS" value="run --rm build bash -c 'cmake -S . -B build && cmake --build build'" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+  </configuration>
+</component>

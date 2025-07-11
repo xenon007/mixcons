@@ -1,2 +1,4 @@
 .vs
-.idea
+.idea/*
+!.idea/runConfigurations/
+!.idea/runConfigurations/*
